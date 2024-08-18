@@ -178,7 +178,7 @@
               <h3>Send A Message</h3>
             </div>
             <div class="contact-form-container">
-              <form id="contact-form" action="http://whizthemes.com/mail-php/contact/mail.php" method="post">
+              <form id="contact-form" action="elitetechydev@gmail.com" method="post">
                 <div class="row">
                   <div class="col-md-6">
                     <input type="text" name="name" placeholder="Your Name *" />
@@ -190,8 +190,7 @@
                 <input type="text" name="subject" placeholder="Subject *" />
                 <textarea name="message" class="yourmessage" placeholder="Your message"></textarea>
                 <button type="submit" class="button-default button-yellow submit">
-                  <i class="fa fa-send"></i>Submit
-                </button>
+                  <i class="fa fa-send"></i>Submit</button>
               </form>
               <p class="form-messege"></p>
             </div>
@@ -355,35 +354,6 @@
   <!-- plugins JS
 		============================================ -->
   <script src="js/plugins.js"></script>
-
-  <!-- Google Map js
-		============================================ -->
-
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBuU_0_uLMnFM-2oWod_fzC0atPZj7dHlU"></script>
-  <script src="https://www.google.com/jsapi"></script>
-  <script>
-    function initialize() {
-      var mapOptions = {
-        zoom: 15,
-        scrollwheel: false,
-        center: new google.maps.LatLng(23.763494, 90.432226),
-      };
-
-      var map = new google.maps.Map(
-        document.getElementById("googleMap"),
-        mapOptions
-      );
-
-      var marker = new google.maps.Marker({
-        position: map.getCenter(),
-        animation: google.maps.Animation.BOUNCE,
-        icon: "img/map-marker.png",
-        map: map,
-      });
-    }
-
-    google.maps.event.addDomListener(window, "load", initialize);
-  </script>
 
   <!-- main JS
 		============================================ -->
