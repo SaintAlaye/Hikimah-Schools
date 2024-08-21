@@ -143,6 +143,13 @@ h6 {
   color: #333;
   font-weight: 500;
 }
+h11 {
+  margin: 0;
+  color: #1bb4b9;
+  font-weight: 500;
+  font-size: 24px;
+}
+
 a {
   -webkit-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
@@ -315,6 +322,7 @@ body {
 .header-top {
   background: #1bb4b9 none repeat scroll 0 0;
 }
+
 .header-top-info span {
   background: #f5b120 none repeat scroll 0 0;
   color: #ffffff;
@@ -509,7 +517,7 @@ ul.login li:hover .login-form {
 .mainmenu ul#nav > li > a {
   color: #444444;
   display: block;
-  font-size: 13px;
+  font-size: 15px;
   font-weight: 600;
   line-height: 99px;
   text-decoration: none;
@@ -728,6 +736,7 @@ nav#dropdown {
   position: absolute;
   top: 11px;
 }
+
 /*----------------------------------------*/
 /*  3. Slider Area
 /*----------------------------------------*/
@@ -752,7 +761,7 @@ nav#dropdown {
 .banner-content h1 {
   -webkit-animation: 1500ms ease-in-out 0s normal none 1 running zoomInUp;
   animation: 1500ms ease-in-out 0s normal none 1 running zoomInUp;
-  color: #f5b120;
+  color: #454545;
   font-size: 55px;
   font-weight: 600;
   margin-bottom: 7px;
@@ -761,9 +770,9 @@ nav#dropdown {
 .banner-content p {
   -webkit-animation: 2000ms ease-in-out 0s normal none 1 running zoomInUp;
   animation: 2000ms ease-in-out 0s normal none 1 running zoomInUp;
-  color: #0c0000;
-  font-size: 30px;
-  font-weight: 600;
+  color: #333333;
+  font-size: 18px;
+  font-weight: 300;
   line-height: 30px;
   margin-bottom: 20px;
 }
@@ -798,6 +807,18 @@ nav#dropdown {
   animation: 2500ms ease-in-out 0s normal none 1 running flipInY;
 }
 .banner-content .slide-2 .banner-readmore {
+  -webkit-animation: 4000ms ease-in-out 0s normal none 1 running flipInX;
+  animation: 4000ms ease-in-out 0s normal none 1 running flipInX;
+}
+.banner-content .slide-3 p {
+  -webkit-animation: 2500ms ease-in-out 0s normal none 1 running flipInY;
+  animation: 2500ms ease-in-out 0s normal none 1 running flipInY;
+}
+.banner-content .slide-3 h1 {
+  -webkit-animation: 1000ms ease-in-out 0s normal none 1 running flipInX;
+  animation: 1000ms ease-in-out 0s normal none 1 running flipInX;
+}
+.banner-content .slide-3 .banner-readmore {
   -webkit-animation: 4000ms ease-in-out 0s normal none 1 running flipInX;
   animation: 4000ms ease-in-out 0s normal none 1 running flipInX;
 }
@@ -3308,7 +3329,7 @@ header.header-five {
 .breadcrumb-banner-area:after {
   background: rgba(0, 0, 0, 0.4) none repeat scroll 0 0;
   content: "";
-  height: 100%;
+  height: 1%;
   left: 0;
   position: absolute;
   top: 0;
@@ -3318,7 +3339,7 @@ header.header-five {
 .breadcrumb {
   border-radius: 22px 22px 0 0;
   margin-bottom: 0;
-  margin-top: 119px;
+  margin-top: 25px;
   padding: 8px 25px;
 }
 .breadcrumb > li a {
@@ -3924,7 +3945,7 @@ textarea {
 /*  24. Teachers Page
 /*----------------------------------------*/
 .breadcrumb-banner-area.teachers {
-  background: rgba(0, 0, 0, 0) url("../img/banner/12.jpg") no-repeat scroll
+  background: rgba(0, 0, 0, 0) url("../img/banner/staff.jpg") no-repeat scroll
     center top / cover;
 }
 .teacher-fullwidth-area .teachers-image-column {
@@ -4040,7 +4061,7 @@ span.schedule-time {
 /*  27. Blog Details Page
 /*----------------------------------------*/
 .blog-post-details > h1 {
-  font-size: 30px;
+  font-size: 40px;
   line-height: 28px;
   margin-bottom: 9px;
 }
@@ -4060,11 +4081,11 @@ span.schedule-time {
   border-radius: 4px;
 }
 .blog-post-details-text > h4 {
-  font-size: 14px;
+  font-size: 24px;
   margin-bottom: 17px;
 }
 .blog-post-details-text > p {
-  margin-bottom: 28px;
+  margin-bottom: 18px;
 }
 
 .blog-post-details-text {
@@ -4077,6 +4098,16 @@ span.schedule-time {
 /*----------------------------------------*/
 /*  28. About Page
 /*----------------------------------------*/
+
+.breadcrumb-banner-area.about {
+  background: url("../img/banner/about.jpg");
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  padding: 151px 0 0;
+  position: relative;
+  z-index: 1;
+}
 .about-text-container p span {
   color: #333333;
   font-size: 30px;
